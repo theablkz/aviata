@@ -1,0 +1,84 @@
+@import "./values.scss";
+
+:root {
+  font-size: 10px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  &:focus {
+    outline: 0;
+  }
+}
+
+html {
+  font-family: $primary-font;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 2.4rem;
+  color: $text-color;
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  font-family: $primary-font;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 2.4rem;
+  color: $text-color;
+  height: 100%;
+}
+#__nuxt,
+#__layout {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+h3{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 3.3rem;
+  color: $text-color;
+}
+
+h4{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.9rem; /* identical to box height, or 125% */
+  color: $text-color;
+}
+
+p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  color: $text-color;
+}
+
+.arial{
+  font-family: $secondary-font;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.semi-bold{
+  font-weight: 600;
+}
+.bold{
+  font-weight: 700;
+}

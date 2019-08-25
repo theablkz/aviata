@@ -1,0 +1,19 @@
+.grid {
+    display: grid;
+    display: -ms-grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    max-width: 120rem;
+    margin: auto;
+    padding: 0 1.6rem;
+}
+
+.grid-col-1_4{
+  grid-column: 1 / 4;
+}
+
+.grid-col-4_13{
+  grid-column: 4 / 13;
+}
+
